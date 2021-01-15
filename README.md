@@ -1,18 +1,21 @@
-# **Alan Call Portfolio**
+# **Programming Language Selector**
 
-## This is a portfolio made to show my projects. 
+## Built to choose a programming language 
 
 #### *By: Alan Call*
 
 ## Technologies Used
 
-- HTML
-- CSS
+* HTML
+* CSS
+* JavaScript
+* BootStrap
+* Jquery
 * Markdown
 
 ## Description
 
-I recently started class at Epicodus and wanted to showcase my projects dating back to my first day there. I will update this portfolio page frequently to show my progress.
+This website will ask a user to answer 5 basic true or false questions. Depending on the answers they input, the website will provide them 4 different outcomes.
 
 ## Setup
 
@@ -22,17 +25,13 @@ I recently started class at Epicodus and wanted to showcase my projects dating b
 
 - Open file index.html in your browser.
 
-## OR
-
-[View Here](https://alanmatthewcall.github.io/Alan-Call-Portfolio/)
-
 ## Known Bugs
 
 - No known issues
 
 ## License
 
-[MIT](https://en.wikipedia.org/wiki/MIT_License)
+[MIT](LICENSE.txt)
 Copyright (c) Alan Call
 
 ## _Contact Information_
@@ -40,4 +39,4 @@ Copyright (c) Alan Call
  * Alan Call alanmatthewcall@gmail.com
 
  
- ![REAME SCREENSHOT](README-Screenshot.png)
+ ![README SCREENSHOT](readme-screenshot.png)
