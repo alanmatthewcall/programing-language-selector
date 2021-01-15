@@ -5,12 +5,29 @@
 body {
   font-family: 'Chonburi', cursive;
   font-family: 'Rozha One', serif;
+  background-color:snow
+  
 }
 
 .body-title {
-  font-size: 100px;
+  text-align: center;
+  font-size: 125px;
+  color:slategrey;
+  padding-top: 50px;
 }
 
 .body-first-list {
-  font-size: 75px;
+  text-align: center;
+  font-size: 50px;
+  padding: 10px;
+  margin: 50px;
+  border-radius: 50px;
+  color:snow;
+  background-color: slategrey;
+
+}
+
+.pros-cons-img {
+  width: 1000px;
+  
 }
