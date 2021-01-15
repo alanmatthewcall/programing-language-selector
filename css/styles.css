@@ -6,16 +6,17 @@ body {
   font-family: 'Chonburi', cursive;
   font-family: 'Rozha One', serif;
   background-color: snow;
+  text-shadow: 2px 2px #4b4646;
   
 }
 
 .body-title {
   text-align: center;
-  text-shadow: 2px 2px #4b4646;
   font-size: 75px;
-  color:slategrey;
+  color: rgb(207, 45, 45);
   padding-top: px;
   margin: 50px;
+  text-shadow: 2px 2px #4b4646;
 
   animation: fadeIn ease 2s;
   -webkit-animation: fadeIn ease 2s;
@@ -71,12 +72,13 @@ body {
 
 .body-first-list {
   text-align: center;
-  font-size: 25px;
+  font-size: 35px;
   padding: 10px;
   margin: 50px;
   border-radius: 50px;
   color:snow;
   background-color: slategrey;
+  border-style:ridge
 
 }
 
@@ -114,6 +116,7 @@ p {
   border-radius: 50px;
   color:snow;
   background-color: slategrey;
+  border-style: ridge;
 }
 
 .radio {
@@ -129,6 +132,7 @@ p {
   border-radius: 50px;
   color:snow;
   background-color: slategrey;
+  border-style: ridge;
 }
 
 .question2 {
@@ -139,6 +143,7 @@ p {
   border-radius: 50px;
   color:snow;
   background-color: slategrey;
+  border-style: ridge;
 }
 
 .question3 {
@@ -149,6 +154,7 @@ p {
   border-radius: 50px;
   color:snow;
   background-color: slategrey;
+  border-style: ridge;
 }
 
 .question4 {
@@ -159,6 +165,7 @@ p {
   border-radius: 50px;
   color:snow;
   background-color: slategrey;
+  border-style: ridge;
 }
 
 .question5 {
@@ -169,6 +176,7 @@ p {
   border-radius: 50px;
   color:snow;
   background-color: slategrey;
+  border-style: ridge;
 }
 
 .response {
@@ -179,6 +187,7 @@ p {
   border-radius: 10px;
   color:snow;
   background-color:rgb(207, 45, 45);
+  border-style: ridge;
 }
 
 center {
