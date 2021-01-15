@@ -5,13 +5,14 @@
 body {
   font-family: 'Chonburi', cursive;
   font-family: 'Rozha One', serif;
-  background-color:snow
+  background-color: snow;
   
 }
 
 .body-title {
   text-align: center;
-  font-size: 125px;
+  text-shadow: 2px 2px #4b4646;
+  font-size: 75px;
   color:slategrey;
   padding-top: px;
   margin: 50px;
@@ -19,7 +20,7 @@ body {
 
 .body-first-list {
   text-align: center;
-  font-size: 50px;
+  font-size: 25px;
   padding: 10px;
   margin: 50px;
   border-radius: 50px;
@@ -122,11 +123,11 @@ p {
 .response {
   text-align: center;
   font-size: 100px;
-  padding: 10px;
+  padding: 15px;
   margin: 50px;
-  border-radius: 50px;
+  border-radius: 10px;
   color:snow;
-  background-color:red;
+  background-color:rgb(207, 45, 45);
 }
 
 center {
@@ -135,7 +136,7 @@ center {
 
 .btn-danger.btn-outline:hover {
   color:slategrey;
-  text-align: center
+  text-align: center;
 }
 
 #javascript {
@@ -147,5 +148,9 @@ center {
 }
 
 #ruby {
+  display: none;
+}
+
+#no {
   display: none;
 }

@@ -3,23 +3,26 @@ $(document).ready(function () {
     $("#javascript").hide();
     $("#csharp").hide();
     $("#ruby").hide();
+    $("#no").hide();
     const creative = parseInt($("input:radio[name=creative]:checked").val());
-    const hard = parseInt($("input:radio[name=hard]:checked").val());
-    const early = parseInt($("input:radio[name=early]:checked").val());
-    const late = parseInt($("input:radio[name=late]:checked").val());
-    const complex = parseInt($("input:radio[name=complex]:checked").val());
+    const design = parseInt($("input:radio[name=design]:checked").val());
+    const variables = parseInt($("input:radio[name=variables]:checked").val());
+    const solve = parseInt($("input:radio[name=solve]:checked").val());
+    const pair = parseInt($("input:radio[name=pair]:checked").val());
     event.preventDefault();
 
-  if (creative + hard + early + late + complex === 5) {
+  if (creative + design + variables + solve + pair === 5) {
   $("#javascript").show();
-  } else if (creative + hard + early + late + complex === 4) {
+  } else if (creative + design + variables + solve + pair === 4) {
   $("#csharp").show();
-  } else if (creative + hard + early + late + complex === 3) {
+  } else if (creative + design + variables + solve + pair === 3) {
   $("#csharp").show();
-  } else if (creative + hard + early + late + complex === 2) {
+  } else if (creative + design + variables + solve + pair === 2) {
   $("#ruby").show();
-  } else if ((creative + hard + early + late + complex === 1) {
+  } else if (creative + design + variables + solve + pair === 1) {
   $("#ruby").show();
+  } else if (creative + design + variables + solve + pair === 0) {
+  $("#no").show();
   }
   });
 });
