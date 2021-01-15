@@ -13,7 +13,8 @@ body {
   text-align: center;
   font-size: 125px;
   color:slategrey;
-  padding-top: 50px;
+  padding-top: px;
+  margin: 50px;
 }
 
 .body-first-list {
@@ -27,7 +28,28 @@ body {
 
 }
 
-.pros-cons-img {
-  width: 1000px;
-  
+.img1 {
+  width: 500px;
+}
+
+.img2 {
+  width: 500px;
+}
+
+.card {
+  width: 500px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 225px;
+}
+.card .img1 {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 99;
+}
+.card:hover .img1 {
+  display: inline;
 }
