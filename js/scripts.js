@@ -1,7 +1,7 @@
 $(document).ready(function () {
   $("#questions").submit(function (event) {
     $("#javascript").hide();
-    $("#c#").hide();
+    $("#csharp").hide();
     $("#ruby").hide();
     const creative = parseInt($("input:radio[name=creative]:checked").val());
     const hard = parseInt($("input:radio[name=hard]:checked").val());
@@ -13,9 +13,9 @@ $(document).ready(function () {
   if (creative + hard + early + late + complex === 5) {
   $("#javascript").show();
   } else if (creative + hard + early + late + complex === 4) {
-  $("#c#").show();
+  $("#csharp").show();
   } else if (creative + hard + early + late + complex === 3) {
-  $("#c").show();
+  $("#csharp").show();
   } else if (creative + hard + early + late + complex === 2) {
   $("#ruby").show();
   } else if ((creative + hard + early + late + complex === 1) {

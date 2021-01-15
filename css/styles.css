@@ -128,3 +128,24 @@ p {
   color:snow;
   background-color:red;
 }
+
+center {
+  margin: 50px;
+}
+
+.btn-danger.btn-outline:hover {
+  color:slategrey;
+  text-align: center
+}
+
+#javascript {
+  display: none;
+}
+
+#csharp {
+  display: none;
+}
+
+#ruby {
+  display: none;
+}
