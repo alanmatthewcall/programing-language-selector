@@ -64,7 +64,22 @@ p {
   background-color: slategrey;
 }
 
+.radio {
+  text-align: center;
+  font-size: 50px;
+}
+
 .question1 {
+  text-align: center;
+  font-size: 50px;
+  padding: 10px;
+  margin: 50px;
+  border-radius: 50px;
+  color:snow;
+  background-color: slategrey;
+  }
+
+  .question2 {
     text-align: center;
     font-size: 50px;
     padding: 10px;
@@ -72,4 +87,34 @@ p {
     border-radius: 50px;
     color:snow;
     background-color: slategrey;
-  }
+    }
+
+    .question3 {
+      text-align: center;
+      font-size: 50px;
+      padding: 10px;
+      margin: 50px;
+      border-radius: 50px;
+      color:snow;
+      background-color: slategrey;
+      }
+
+      .question4 {
+        text-align: center;
+        font-size: 50px;
+        padding: 10px;
+        margin: 50px;
+        border-radius: 50px;
+        color:snow;
+        background-color: slategrey;
+        }
+
+        .question5 {
+          text-align: center;
+          font-size: 50px;
+          padding: 10px;
+          margin: 50px;
+          border-radius: 50px;
+          color:snow;
+          background-color: slategrey;
+          }
