@@ -41,7 +41,7 @@ body {
   height: auto;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 225px;
+  margin-bottom: px;
 }
 .card .img1 {
   display: none;
@@ -53,3 +53,23 @@ body {
 .card:hover .img1 {
   display: inline;
 }
+
+p {
+  text-align: center;
+  font-size: 50px;
+  padding: 10px;
+  margin: 50px;
+  border-radius: 50px;
+  color:snow;
+  background-color: slategrey;
+}
+
+.question1 {
+    text-align: center;
+    font-size: 50px;
+    padding: 10px;
+    margin: 50px;
+    border-radius: 50px;
+    color:snow;
+    background-color: slategrey;
+  }
