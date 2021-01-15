@@ -173,8 +173,8 @@ p {
 
 .response {
   text-align: center;
-  font-size: 100px;
-  padding: 15px;
+  font-size: 50px;
+  padding: 10px;
   margin: 50px;
   border-radius: 10px;
   color:snow;
@@ -188,7 +188,7 @@ center {
 .btn-danger.btn-outline:hover {
   color:slategrey;
   text-align: center;
-}
+}  
 
 #javascript {
   display: none;
@@ -204,4 +204,14 @@ center {
 
 #no {
   display: none;
+}
+
+
+label {
+  
+  font-size: 50px;
+}
+
+label:hover {
+  color:rgb(28, 114, 226);
 }
