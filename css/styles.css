@@ -1,0 +1,16 @@
+.opener {
+  color: blue;
+}
+
+body {
+  font-family: 'Chonburi', cursive;
+  font-family: 'Rozha One', serif;
+}
+
+.body-title {
+  font-size: 100px;
+}
+
+.body-first-list {
+  font-size: 75px;
+}
