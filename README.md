@@ -2,7 +2,7 @@
 
 ## Built to choose a programming language 
 
-#### *By: Alan Call*
+#### *By: _Alan Call_*
 
 ## Technologies Used
 
